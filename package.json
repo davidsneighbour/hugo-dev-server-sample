@@ -15,6 +15,7 @@
     "@dnb-org/cypress-config": "^3.4.1",
     "@dnb-org/eslint-config": "^3.4.12",
     "@dnb-org/prettier-config": "^3.4.2",
+    "@dnb-org/remark-config": "^3.4.0",
     "@dnb-org/standard-version-config": "^3.3.7",
     "@dnb-org/tools": "^3.4.0",
     "bootstrap": "^5.1.3"
@@ -36,5 +37,14 @@
     "test:ide": "run-p test:server test:cypress:ide",
     "test:server": "./bin/dnb-hugo-test-server.sh"
   },
-  "private": true
+  "private": true,
+  "remarkConfig": {
+    "plugins": [
+      "@dnb-org/remark-config",
+      [
+        "remark-lint-write-good",
+        false
+      ]
+    ]
+  }
 }
