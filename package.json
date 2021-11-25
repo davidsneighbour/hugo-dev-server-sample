@@ -37,14 +37,5 @@
     "test:ide": "run-p test:server test:cypress:ide",
     "test:server": "./bin/dnb-hugo-test-server.sh"
   },
-  "private": true,
-  "remarkConfig": {
-    "plugins": [
-      "@dnb-org/remark-config",
-      [
-        "remark-lint-write-good",
-        false
-      ]
-    ]
-  }
+  "private": true
 }
