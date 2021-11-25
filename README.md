@@ -8,9 +8,9 @@ Work in progress, working now, but very immature still.
 
 ## ToDo
 
-- [ ] have sensible defaults for the .env variables
-- [ ] add some linting
-- [ ] add install/update script
-- [ ] documentation
-- [ ] better layouts
-- [ ] whatever comes up...
+- have sensible defaults for the .env variables
+- add some linting
+- add install/update script
+- documentation
+- better layouts
+- whatever comes up...
