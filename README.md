@@ -4,7 +4,7 @@ Having a development server for GoHugo modules in their respective repository of
 
 It might also be good to have the development server in a folder that can be ignored when packaging anything.
 
-Work in progress, working now, but very immature still.
+Work in progress, working now, but immature still.
 
 ## ToDo
 
@@ -13,4 +13,4 @@ Work in progress, working now, but very immature still.
 - add install/update script
 - documentation
 - better layouts
-- whatever comes up...
+- whatever comes up
