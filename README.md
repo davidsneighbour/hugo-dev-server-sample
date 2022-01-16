@@ -1,4 +1,13 @@
-# Sample Repo with a development server for GoHugo Modules
+<!--- CARD BEGIN --->
+
+![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
+
+<!--- CARD END --->
+
+# DNB GoHugo Component / Dev-Server Sample
+
+Sample Repo with a development server for GoHugo Modules
 
 Having a development server for GoHugo modules in their respective repository often leads to issues with module configuration and development server configuration "seeping" through to the project using that module.
 
